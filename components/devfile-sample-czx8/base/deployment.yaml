@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-czx8
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:bca8985824eb7e9edc612716038ed34e8451a62424f852dfc8ee23a09d24b218
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c24d894d0d23675f407d6cd612071d44940fcc68156f7072b1bf4724fcc921b0
         name: my-nodejs
         ports:
         - containerPort: 3001
