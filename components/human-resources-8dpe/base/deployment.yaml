@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: human-resources-8dpe
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-human-resources-8dpe
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:dda21225620493f7380533096e8015e4a6aced38ad27ab896c0c1a04f8473c9f
         name: my-java-springboot
         ports:
         - containerPort: 8081
