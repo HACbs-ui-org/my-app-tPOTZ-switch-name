@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:dda21225620493f7380533096e8015e4a6aced38ad27ab896c0c1a04f8473c9f
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:0d521a7f2812fa7a456bc1616958dfcaec8671b2b282e844484fe4c104be9a43
         name: my-java-springboot
         resources: {}
 status: {}
