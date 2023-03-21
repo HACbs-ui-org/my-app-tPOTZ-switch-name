@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: node-express-hello-yzse
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-node-express-hello-yzse
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:cf0767ae060ed962d073eca918def6cdd1221e6dc03c737dc3236f22775c8364
         name: my-nodejs
         ports:
         - containerPort: 3001
